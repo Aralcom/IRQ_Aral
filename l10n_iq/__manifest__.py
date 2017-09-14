@@ -7,11 +7,11 @@
     'author': 'www.Aral.co',
     'category': 'Localization',
     'description': """
-Odoo localization for most  Republic of Iraq.
+        
+        Republic of Iraq Standard Accounting System by Aral
+        This includes chart of accounts of Iraq. based of the standards
 
-This initially includes chart of accounts of Iraq.
-
-If you need the payroll rules for Iraq please contact sales@aral.co .
+        If you need the payroll rules for Iraq please contact sales@aral.co .
 """,
     'website': 'http://www.aral.co',
     'depends': ['account', 'l10n_multilang'],
@@ -21,5 +21,8 @@ If you need the payroll rules for Iraq please contact sales@aral.co .
         'data/l10n_iq_chart_data.xml',
         'data/account_chart_template_data.yml',
     ],
+    'price': '1049.99',
+    'currency': 'EUR',
+
     'post_init_hook': 'load_translations',
 }
